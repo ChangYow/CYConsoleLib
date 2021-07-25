@@ -8,21 +8,21 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>com.squareup.okio</groupId>
+      <artifactId>okio</artifactId>
+      <version>2.10.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>no.nordicsemi.android.support.v18</groupId>
       <artifactId>scanner</artifactId>
-      <version>1.4.2</version>
+      <version>1.4.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>no.nordicsemi.android</groupId>
       <artifactId>ble</artifactId>
       <version>2.2.4</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okio</groupId>
-      <artifactId>okio</artifactId>
-      <version>2.10.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
