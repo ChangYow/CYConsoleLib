@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.changyow</groupId>
+  <artifactId>consolelib</artifactId>
+  <version>1.6.15</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <artifactId>eventbus</artifactId>
+      <groupId>org.greenrobot</groupId>
+      <version>3.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>okio</artifactId>
+      <groupId>com.squareup.okio</groupId>
+      <version>2.10.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>scanner</artifactId>
+      <groupId>no.nordicsemi.android.support.v18</groupId>
+      <version>1.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>ble</artifactId>
+      <groupId>no.nordicsemi.android</groupId>
+      <version>2.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>kotlin-stdlib-jdk8</artifactId>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <version>1.7.10</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
